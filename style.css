@@ -13,16 +13,117 @@ ul,li {
     padding: 0;
 }
 
-a{
+footer a, nav a{
     text-decoration: none;
 }
 
+.form-select{
+    border: 2px solid #FF0000;
+    border-radius: 15px;
+    color: #FF0000;
+    background-color: #fff;
+    padding: 5px 10px;
+    width: 15%;
+}
+
+.form-select:focus {
+    box-shadow: none;
+    border: 2px solid #FF0000;
+    border-radius: 15px;
+    color: #FF0000;
+    background-color: #fff;
+    outline: none;
+}
 /* NAV */
+nav a {
+    font-weight: 500;
+    color: #000;
+}
 
 .icon-calendar {
     background-color: #E32226;
     border-radius: 10px;
 }
+
+
+header button {
+    background-color: #fff;
+    border-radius: 14px;
+    padding: 10px 18px;
+}
+.cuenta a {
+    color: #000;
+}
+
+hr {
+    color: #000;
+    background-color: #000;
+    border: 2px solid #000 ;
+    opacity: 100%;
+    width: 90%;
+    margin: 10px auto;
+}
+
+/* MAIN */
+
+.calendario {
+    padding: 0;
+}
+
+main .container-fluid {
+    padding: 0;
+}
+
+.fecha {
+    padding: 0 20px;
+    border-right: 2px solid #000;
+}
+
+.obra {
+    padding: 0 10px ;
+}
+
+.calendario button {
+    width: 100%;
+    border: none;
+    padding: 10px 15px;
+    color: #fff;
+}
+
+
+
+/* CALENDARIO */
+.table th {
+    background-color: #786767;
+}
+.table td, .table th {
+    border: none;
+}
+.table td {
+    margin: 20px; /* Ajusta este valor según el espaciado que desees */
+    /* background-color: #DACACA; */
+    padding: 20px 30px;
+}
+
+.table button {
+    border: none;
+    width: 100%;
+    height: 100%;
+    color: #fff;
+}
+
+.red {
+    background-color: #FF0000;
+}
+
+.bordo {
+    background-color: #A00000;
+}
+
+.rojo {
+    background-color: #FF0000;
+}
+
 /* FOOTER */
 
 footer {
