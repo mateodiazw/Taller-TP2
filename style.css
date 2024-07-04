@@ -93,23 +93,23 @@ main .container-fluid {
 
 
 /* CALENDARIO */
+.table {
+    border-spacing: 35px 10px; 
+    border-collapse: separate;
+    font-weight: 600;
+}
 .table th {
-    background-color: #786767;
+    background-color:#786767;
+    padding: 25px 0px;
+
 }
 .table td, .table th {
     border: none;
 }
 .table td {
-    margin: 20px; /* Ajusta este valor según el espaciado que desees */
-    /* background-color: #DACACA; */
-    padding: 20px 30px;
-}
-
-.table button {
-    border: none;
-    width: 100%;
-    height: 100%;
-    color: #fff;
+    background-color: #DACACA;
+    padding: 25px 5px;
+    font-weight: 600;
 }
 
 .red {
@@ -120,8 +120,14 @@ main .container-fluid {
     background-color: #A00000;
 }
 
-.rojo {
+table td.rojo {
     background-color: #FF0000;
+    color: #fff;
+}
+
+table td.agendado {
+    background-color: #A00000;
+    color: #fff;
 }
 
 /* FOOTER */
