@@ -142,7 +142,13 @@ main .container-fluid {
         .agendados-lista li {
             margin-left: 25px;
             color: #E32226;
-            list-style:circle;
+            list-style:  disc;;
+        }
+
+        .textos-agendados-lista {
+            color: #000;
+            font-weight:600;
+
         }
 
 /* FOOTER */
