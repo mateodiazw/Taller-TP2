@@ -92,43 +92,62 @@ main .container-fluid {
 
 
 
-/* CALENDARIO */
-.table {
-    border-spacing: 35px 10px; 
-    border-collapse: separate;
-    font-weight: 600;
-}
-.table th {
-    background-color:#786767;
-    padding: 25px 0px;
+        /* CALENDARIO */
+        .table {
+            border-spacing: 35px 10px; 
+            border-collapse: separate;
+            font-weight: 600;
+        }
+        .table th {
+            background-color: #786767;
+            padding: 0px 10px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .table td, .table th {
+            border: none;
+            text-align: center;
+            vertical-align: middle;
+            height: 100px; 
+        }
+        .table td {
+            background-color: #DACACA;
+            padding: 25px 20px;
+            font-weight: 600;
+            width: 200px;
+            text-align: left;
+        }
+        .table td span {
+            display: block;
+            font-size: 0.75em;
+            text-align: left;
+        }
+        .red {
+            background-color: #FF0000;
+        }
+        .bordo {
+            background-color: #A00000;
+        }
+        table td.rojo {
+            background-color: #FF0000;
+            color: #fff;
+        }
+        table td.agendado {
+            background-color: #A00000;
+            color: #fff;
+        }
 
-}
-.table td, .table th {
-    border: none;
-}
-.table td {
-    background-color: #DACACA;
-    padding: 25px 5px;
-    font-weight: 600;
-}
+        .table .pasado {
+            background-color: #DACACA;
+            border: 3px solid #000;
+            opacity: 40%;
+        }
 
-.red {
-    background-color: #FF0000;
-}
-
-.bordo {
-    background-color: #A00000;
-}
-
-table td.rojo {
-    background-color: #FF0000;
-    color: #fff;
-}
-
-table td.agendado {
-    background-color: #A00000;
-    color: #fff;
-}
+        .agendados-lista li {
+            margin-left: 25px;
+            color: #E32226;
+            list-style:circle;
+        }
 
 /* FOOTER */
 
