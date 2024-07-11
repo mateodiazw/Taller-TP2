@@ -128,10 +128,6 @@ main .container-fluid {
         .bordo {
             background-color: #A00000;
         }
-        table td.rojo {
-            background-color: #FF0000;
-            color: #fff;
-        }
         table td.agendado {
             background-color: #A00000;
             color: #fff;
