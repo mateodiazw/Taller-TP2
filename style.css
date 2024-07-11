@@ -2,9 +2,59 @@
     list-style: none;
     text-decoration: none;
     font-family: Poppins, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-ul,li {
+
+body {
+    background-color: #FBF0F0; 
+}
+
+
+.calendario {
+    background-color: #FFFFFF; 
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+}
+
+
+.calendario.agendado {
+    background-color: #A00000; 
+    border-color: #A00000; 
+    color: #FFFFFF; 
+}
+
+
+.calendario .fecha h3 {
+    margin-top: 10px; 
+    color: #CACACA; 
+}
+
+
+button.fs-5 {
+    padding: 5px 10px;
+    border-radius: 0px;
+    cursor: pointer;
+    width: 100%;
+}
+
+button.fs-5.red {
+    background-color: #FF0000; 
+    color: #FFFFFF; 
+    border: none;
+}
+
+button.fs-5.bordo {
+    background-color: #A00000; 
+    color: #FFFFFF; 
+    border: none;
+}
+
+ul, li {
     margin: 0;
     padding: 0;
 }
@@ -13,11 +63,11 @@ ul,li {
     padding: 0;
 }
 
-footer a, nav a{
+footer a, nav a {
     text-decoration: none;
 }
 
-.form-select{
+.form-select {
     border: 2px solid #FF0000;
     border-radius: 15px;
     color: #FF0000;
@@ -34,6 +84,7 @@ footer a, nav a{
     background-color: #fff;
     outline: none;
 }
+
 /* NAV */
 nav a {
     font-weight: 500;
@@ -45,12 +96,12 @@ nav a {
     border-radius: 10px;
 }
 
-
 header button {
     background-color: #fff;
     border-radius: 14px;
     padding: 10px 18px;
 }
+
 .cuenta a {
     color: #000;
 }
@@ -58,14 +109,13 @@ header button {
 hr {
     color: #000;
     background-color: #000;
-    border: 2px solid #000 ;
+    border: 2px solid #000;
     opacity: 100%;
     width: 90%;
     margin: 10px auto;
 }
 
 /* MAIN */
-
 .calendario {
     padding: 0;
 }
@@ -80,7 +130,7 @@ main .container-fluid {
 }
 
 .obra {
-    padding: 0 10px ;
+    padding: 0 10px;
 }
 
 .calendario button {
@@ -90,6 +140,68 @@ main .container-fluid {
     color: #fff;
 }
 
+/* CALENDARIO */
+.table {
+    border-collapse: separate;
+    font-weight: 600;
+    width: 100%;
+    table-layout: fixed;
+    border-spacing: 10px;
+}
+
+.table th, .table td {
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    font-weight: 600;
+    padding: 5px;
+    position: relative;
+    background-color: #FFFFFF; 
+}
+
+.table th {
+    background-color: #786767;
+    color: #FFFFFF;
+}
+
+.table td {
+    background-color: #FFFFFF; 
+}
+
+.table td.pasado {
+    background-color: transparent; 
+    border: 3px solid #FFFFFF;
+    color: #CACACA; 
+}
+
+.table td.agendado {
+    background-color: #A00000; 
+    color: #fff;
+}
+
+.table td span {
+    display: block;
+    font-size: 0.75em;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.table td::before {
+    content: attr(data-number);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    color: inherit;
+}
+
+.agendados-lista li {
+    margin-left: 25px;
+    color: #E32226;
+    list-style: circle;
+}
 
 
         /* CALENDARIO */
@@ -152,7 +264,6 @@ main .container-fluid {
         }
 
 /* FOOTER */
-
 footer {
     background-color: #0d0d0d;
     padding: 40px;
@@ -183,12 +294,15 @@ footer .btn {
     background-color: #E32226;
     color: #fff;
 }
+
 footer .btn:hover {
     background-color: #a41e20;
 }
+
 footer ul, footer h6 {
     color: #938E8E;
 }
+
 footer a {
     color: #fff;
 }

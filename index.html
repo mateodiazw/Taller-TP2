@@ -55,137 +55,148 @@
         </div>
     </nav>
     <hr>
-    <main  class="p-5">
+    <main class="p-5">
         <div class="px-5">
             <h1 class="fs-1">EVENTOS</h1>
             <div class="px-5">
                 <select class="form-select form-select-sm my-4 fs-5" aria-label=".form-select-sm example">
-                <option selected>Junio</option>
-                <option value="1">Julio</option>
-                <option value="2">Agosto</option>
-                <option value="3">Septiembre</option>
+                    <option selected>Junio</option>
+                    <option value="1">Julio</option>
+                    <option value="2">Agosto</option>
+                    <option value="3">Septiembre</option>
                 </select>
             </div>
-            
-            <div class=" container-fluid px-5">
-                <div class="d-flex justify-content-between">
-                    <div class="calendario">
-                        <div class="img-fluid w-100">
-                            <img class="w-100" src="data/0.png" alt="">
-                        </div>
-                        <div class="d-flex px-4 py-4 justify-content-center">
-                            <div class="fecha text-center">
-                                <h3 class="fs-3"><b>15</b></h3>
-                                <h3 class="fs-3"><b>Junio</b></h3>
+    
+            <div class="container-fluid px-5">
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="calendario">
+                            <div class="img-fluid w-100">
+                                <img class="w-100" src="data/0.png" alt="">
                             </div>
-                            <div class="obra">
-                                <h5 class="fs-5"><b>"Black Tango"</b></h5>
-                                <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg> Complejo Belgrano</h5>
-                                <h6 class="fs-5">19.00 hs</h6>
+                            <div class="d-flex px-4 py-4 justify-content-center">
+                                <div class="fecha text-center">
+                                    <h3 class="fs-3"><b>15</b></h3>
+                                    <h3 class="fs-3"><b>Junio</b></h3>
+                                </div>
+                                <div class="obra">
+                                    <h5 class="fs-5"><b>"Black Tango"</b></h5>
+                                    <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></svg> Complejo Belgrano</h5>
+                                    <h6 class="fs-5">19.00 hs</h6>
+                                </div>
                             </div>
+                            <button class="fs-5 red" onclick="agendar(event)">Agendar</button>
                         </div>
-                        <button class="fs-5 red" onclick="agendar(event)">Agendar</button>
                     </div>
-                    <div class="calendario mx-5">
-                        <div class="img-fluid w-100">
-                            <img class="w-100" src="data/1.png" alt="">
-                        </div>
-                        <div class="d-flex px-4 py-4 justify-content-center">
-                            <div class="fecha text-center">
-                                <h3 class="fs-3"><b>16</b></h3>
-                                <h3 class="fs-3"><b>Junio</b></h3>
+                    <div class="col-md-4 mb-4">
+                        <div class="calendario">
+                            <div class="img-fluid w-100">
+                                <img class="w-100" src="data/1.png" alt="">
                             </div>
-                            <div class="obra">
-                                <h5 class="fs-5"><b>"Cascanueces"</b></h5>
-                                <h5 class="fs-5"><svg class="m-0"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg> Centro Crisoles</h5>
-                                <h6 class="fs-5">17.30 hs</h6>
+                            <div class="d-flex px-4 py-4 justify-content-center">
+                                <div class="fecha text-center">
+                                    <h3 class="fs-3"><b>16</b></h3>
+                                    <h3 class="fs-3"><b>Junio</b></h3>
+                                </div>
+                                <div class="obra">
+                                    <h5 class="fs-5"><b>"Cascanueces"</b></h5>
+                                    <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></svg> Centro Crisoles</h5>
+                                    <h6 class="fs-5">17.30 hs</h6>
+                                </div>
                             </div>
+                            <button class="fs-5 bordo" onclick="agendar(event)">Agendado</button>
                         </div>
-                        <button class="fs-5 bordo" onclick="agendar(event)">Agendado</button>
                     </div>
-                    <div class="calendario ">
-                        <div class="img-fluid w-100">
-                            <img class="w-100" src="data/2.png" alt="">
-                        </div>
-                        <div class="d-flex px-4 py-4 justify-content-center">
-                            <div class="fecha text-center">
-                                <h3 class="fs-3"><b>19</b></h3>
-                                <h3 class="fs-3"><b>Junio</b></h3>
+                    <div class="col-md-4 mb-4">
+                        <div class="calendario">
+                            <div class="img-fluid w-100">
+                                <img class="w-100" src="data/2.png" alt="">
                             </div>
-                            <div class="obra">
-                                <h5 class="fs-5"><b>"Alicia"</b></h5>
-                                <h5 class="fs-5"><svg class="m-0"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>Teatro Roma</h5>
-                                <h6 class="fs-5">20.30 hs</h6>
+                            <div class="d-flex px-4 py-4 justify-content-center">
+                                <div class="fecha text-center">
+                                    <h3 class="fs-3"><b>19</b></h3>
+                                    <h3 class="fs-3"><b>Junio</b></h3>
+                                </div>
+                                <div class="obra">
+                                    <h5 class="fs-5"><b>"Alicia"</b></h5>
+                                    <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></svg> Teatro Roma</h5>
+                                    <h6 class="fs-5">20.30 hs</h6>
+                                </div>
                             </div>
+                            <button class="fs-5 bordo" onclick="agendar(event)">Agendado</button>
                         </div>
-                        <button class="fs-5 bordo" onclick="agendar(event)">Agendado</button>
                     </div>
-                </div>
-                <div class="d-flex justify-content-between mt-5">
-                    <div class="calendario">
-                        <div class="img-fluid w-100">
-                            <img class="w-100" src="data/3.png" alt="">
-                        </div>
-                        <div class="d-flex px-4 py-4 justify-content-center">
-                            <div class="fecha text-center">
-                                <h3 class="fs-3"><b>22</b></h3>
-                                <h3 class="fs-3"><b>Junio</b></h3>
+                    <div class="col-md-4 mb-4">
+                        <div class="calendario">
+                            <div class="img-fluid w-100">
+                                <img class="w-100" src="data/3.png" alt="">
                             </div>
-                            <div class="obra">
-                                <h5 class="fs-5"><b>"Mujer Rota"</b></h5>
-                                <h5 class="fs-5"><svg class="m-0"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>Espacio Viceversa</h5>
-                                <h6 class="fs-5">19.30 hs</h6>
+                            <div class="d-flex px-4 py-4 justify-content-center">
+                                <div class="fecha text-center">
+                                    <h3 class="fs-3"><b>22</b></h3>
+                                    <h3 class="fs-3"><b>Junio</b></h3>
+                                </div>
+                                <div class="obra">
+                                    <h5 class="fs-5"><b>"Mujer Rota"</b></h5>
+                                    <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></svg> Espacio Viceversa</h5>
+                                    <h6 class="fs-5">19.30 hs</h6>
+                                </div>
                             </div>
+                            <button class="fs-5 bordo" onclick="agendar(event)">Agendado</button>
                         </div>
-                        <button class="fs-5 bordo" onclick="agendar(event)">Agendado</button>
                     </div>
-                    <div class="calendario mx-5">
-                        <div class="img-fluid w-100">
-                            <img class="w-100" src="data/4.png" alt="">
-                        </div>
-                        <div class="d-flex px-4 py-4 justify-content-center">
-                            <div class="fecha text-center">
-                                <h3 class="fs-3"><b>23</b></h3>
-                                <h3 class="fs-3"><b>Junio</b></h3>
+                    <div class="col-md-4 mb-4">
+                        <div class="calendario">
+                            <div class="img-fluid w-100">
+                                <img class="w-100" src="data/4.png" alt="">
                             </div>
-                            <div class="obra">
-                                <h5 class="fs-5"><b>"Mujer Rota"</b></h5>
-                                <h5 class="fs-5"><svg class="m-0"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>Espacio Viceversa</h5>
-                                <h6 class="fs-5">18.00 hs</h6>
+                            <div class="d-flex px-4 py-4 justify-content-center">
+                                <div class="fecha text-center">
+                                    <h3 class="fs-3"><b>23</b></h3>
+                                    <h3 class="fs-3"><b>Junio</b></h3>
+                                </div>
+                                <div class="obra">
+                                    <h5 class="fs-5"><b>"Mujer Rota"</b></h5>
+                                    <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></svg> Espacio Viceversa</h5>
+                                    <h6 class="fs-5">18.00 hs</h6>
+                                </div>
                             </div>
+                            <button class="fs-5 red" onclick="agendar(event)">Agendar</button>
                         </div>
-                        <button class="fs-5 red" onclick="agendar(event)">Agendar</button>
                     </div>
-                    <div class="calendario">
-                        <div class="img-fluid w-100">
-                            <img class="w-100" src="data/5.png" alt="">
-                        </div>
-                        <div class="d-flex px-4 py-4 justify-content-center">
-                            <div class="fecha text-center">
-                                <h3 class="fs-3"><b>26</b></h3>
-                                <h3 class="fs-3"><b>Junio</b></h3>
+                    <div class="col-md-4 mb-4">
+                        <div class="calendario">
+                            <div class="img-fluid w-100">
+                                <img class="w-100" src="data/5.png" alt="">
                             </div>
-                            <div class="obra">
-                                <h5 class="fs-5"><b>"Nombres que danzan"</b></h5>
-                                <h5 class="fs-5"><svg class="m-0"  xmlns="http://www.w3.org/2000/svg"  width="24"  height="24"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" /><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z" /></svg>CCK</h5>
-                                <h6 class="fs-5">18.000 hs</h6>
+                            <div class="d-flex px-4 py-4 justify-content-center">
+                                <div class="fecha text-center">
+                                    <h3 class="fs-3"><b>26</b></h3>
+                                    <h3 class="fs-3"><b>Junio</b></h3>
+                                </div>
+                                <div class="obra">
+                                    <h5 class="fs-5"><b>"Nombres que danzan"</b></h5>
+                                    <h5 class="fs-5"><svg class="m-0" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-map-pin"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"/><path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"/></svg> CCK</h5>
+                                    <h6 class="fs-5">18.00 hs</h6>
+                                </div>
                             </div>
+                            <button class="fs-5 red" onclick="agendar(event)">Agendar</button>
                         </div>
-                        <button class="fs-5 red" onclick="agendar(event)">Agendar</button>
                     </div>
                 </div>
             </div>
         </div>
-    </main> 
+    </main>
+    
     <section class="p-5 w-100">
-        <div class="px-5 w-100">
+    <div class="px-5 w-100">
         <h2 class="fs-1">MI CALENDARIO</h2>
         <div class="px-5">
             <select class="form-select form-select-sm my-4 fs-5" aria-label=".form-select-sm example">
-            <option selected>Junio</option>
-            <option value="1">Julio</option>
-            <option value="2">Agosto</option>
-            <option value="3">Septiembre</option>
+                <option selected>Junio</option>
+                <option value="1">Julio</option>
+                <option value="2">Agosto</option>
+                <option value="3">Septiembre</option>
             </select>
         </div>
         <div class="container-fluid mt-5">
@@ -203,61 +214,61 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td class="pasado">27</td>
-                        <td class="pasado">28</td>
-                        <td class="pasado">29</td>
-                        <td class="pasado">30</td>
-                        <td class="pasado">31</td>
-                        <td>01</td>
-                        <td>02</td>
+                        <td class="pasado" data-number="27"></td>
+                        <td class="pasado" data-number="28"></td>
+                        <td class="pasado" data-number="29"></td>
+                        <td class="pasado" data-number="30"></td>
+                        <td class="pasado" data-number="31"></td>
+                        <td data-number="01"></td>
+                        <td data-number="02"></td>
                     </tr>
                     <tr>
-                        <td>03</td>
-                        <td>04</td>
-                        <td>05</td>
-                        <td>06</td>
-                        <td>07</td>
-                        <td>08</td>
-                        <td>09</td>
+                        <td data-number="03"></td>
+                        <td data-number="04"></td>
+                        <td data-number="05"></td>
+                        <td data-number="06"></td>
+                        <td data-number="07"></td>
+                        <td data-number="08"></td>
+                        <td data-number="09"></td>
                     </tr>
                     <tr>
-                        <td>10</td>
-                        <td>11</td>
-                        <td>12</td>
-                        <td>13</td>
-                        <td>14</td>
-                        <td class="rojo" >15 <br> 
+                        <td data-number="10"></td>
+                        <td data-number="11"></td>
+                        <td data-number="12"></td>
+                        <td data-number="13"></td>
+                        <td data-number="14"></td>
+                        <td class="rojo" data-number="15">
                             <span class="fs-6">"Dance Street"</span>
                         </td>
-                        <td class="agendado">16 <br>
+                        <td class="agendado" data-number="16">
                             <span class="fs-6">"Black Tango"</span>
                         </td>
                     </tr>
                     <tr>
-                        <td>17</td>
-                        <td>18</td>
-                        <td class="agendado" >19 <br>
+                        <td data-number="17"></td>
+                        <td data-number="18"></td>
+                        <td class="agendado" data-number="19">
                             <span class="fs-6">"Cascanueces"</span>
                         </td>
-                        <td>20</td>
-                        <td>21</td>
-                        <td class="agendado">22 <br>
+                        <td data-number="20"></td>
+                        <td data-number="21"></td>
+                        <td class="agendado" data-number="22">
                             <span class="fs-6">"Muerto"</span>
                         </td>
-                        <td class="rojo" >23 <br>
+                        <td class="rojo" data-number="23">
                             <span class="fs-6">"Mujer Rota"</span>
                         </td>
                     </tr>
                     <tr>
-                        <td>24</td>
-                        <td>25</td>
-                        <td class="rojo">26 <br>
+                        <td data-number="24"></td>
+                        <td data-number="25"></td>
+                        <td class="rojo" data-number="26">
                             <span class="fs-6">"Nombres que Danzan"</span>
                         </td>
-                        <td>27</td>
-                        <td>28</td>
-                        <td>29</td>
-                        <td>30</td>
+                        <td data-number="27"></td>
+                        <td data-number="28"></td>
+                        <td data-number="29"></td>
+                        <td data-number="30"></td>
                     </tr>
                 </tbody>
             </table>
@@ -267,8 +278,10 @@
             <li>  <span class="textos-agendados-lista">19 de Junio - “Cascanueces” 17.30 hs</span></li>
             <li> <span class="textos-agendados-lista"> 22 de Junio - “Muerto” 19.30 hs</span></li>
         </ul>
-        </div>
-    </section>
+    </div>
+</section>
+
+    
     <footer class="">
         <div class="logo-footer ms-4"><svg width="248" height="56" viewBox="0 0 248 56" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
             <rect width="248" height="56" fill="url(#pattern0_1022_407)"/>
